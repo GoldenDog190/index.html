@@ -3,9 +3,9 @@ Golden Retriever
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Dog Breeds</title>
+      <title>Dog Breeds
       <link rel= "styes.css" href= "styles.css" type = text/css>
-      <! -- metadata, links to css files,SEO -->
+      <! -- metadata, links to css files,SEO --></title>
   </head>
   <body>
       <h1>Golden Retriever Information</h1>
