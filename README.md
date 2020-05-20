@@ -4,10 +4,12 @@ Golden Retriever
 <html>
   <head>
       <title>Dog Breeds</title>
+      <link rel= "styes.css" href= "styles.css" type = text/css>
+      <! -- metadata, links to css files,SEO -->
   </head>
   <body>
       <h1>Golden Retriever Information</h1>
-       <img src= "https://placeholder.com/150"/>
+       <img id= "Golden Retriever" src= "https://live.staticflickr.com/3722/10581910556_659c71691b_b.jpg"/150>
        <p>
            Golden retrievers are know for thier kind and gentle nature. 
            They are great with people of all ages, and are very patient.
@@ -16,4 +18,4 @@ Golden Retriever
        </p>
        <footer>Golden Retriever Footer</footer>
   </body>
-</html>
+</html> 

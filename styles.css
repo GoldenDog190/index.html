@@ -1,0 +1,29 @@
+/* add picture 
+add background color*/
+body {
+    font-family: helvetica;
+    color: black;
+    padding: 20px;}
+
+ h1 {
+     font-family: helvitica;
+     color: black;
+     padding: 2px;} 
+     
+#Golden Retriever {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+
+p {
+   font-family: helvetica;
+   color: black; 
+   padding: 15px;
+}
+
+footer {
+    font-family: helvetica;
+    color: black;
+    padding: 5px;
+}
