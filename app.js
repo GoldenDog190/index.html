@@ -7,8 +7,13 @@ function askName() {
 }
 
 function askdogBreed(dog){
-    var dogBreed = prompt (dog + ', What kind of dog breed do you have?').toLowerCase();
-    console.log(dogBreed);
+    var dogBreed = prompt(dog + ', Do you like dogs?').toLowerCase();
+    console.log('before the while' + dogBreed);
+    while ((dogBreed !== 'no') && (dogBreed !== 'yes')){
+        console.log('in while but before re-assign' + dogBreed);
+        dogBreed = prompt(dog + ', Do you like dogs?').toLowerCase();
+        console.log('in while but after re-assign' + dogBreed);
+    }
     return dogBreed;
 }
 
@@ -36,3 +41,17 @@ function likedogBreed(dogBreedFromFunction){
     var dogBreedFromFunction = askdogBreed (userNameFromFunction);
     var typeOfDogFromFunction = typeOfDog ();
     likedogBreed(dogBreedFromFunction)
+
+    var letterAnswer = 'd'
+    var guess = 5;
+    var letterGuess = prompt('Guess a letter(single letter only)');
+
+    for (var i = 0; i < guess; i = i + 1){
+        if (letterGuess === letterAnswer){
+            alert ('Ding Ding Ding! That is correct');
+            break;
+        } else {
+            var left = guess - i;
+            letterGuess = prompt('Wrong! Try again with another number!' + left + 'left.');
+        }
+    }
