@@ -7,7 +7,7 @@ function askName() {
 }
 
 function askdogBreed(dog){
-    var dogBreed = prompt (dog +'What kind of dog breed do you have?').toLowerCase();
+    var dogBreed = prompt (dog +',What kind of dog breed do you have?').toLowerCase();
     console.log(dogBreed);
     return dogBreed;
 }
@@ -36,4 +36,3 @@ function likedogBreed(dogBreedFromFunction){
     var dogBreedFromFunction = askdogBreed (userNameFromFunction);
     var typeOfDogFromFunction = typeOfDog ();
     likedogBreed(dogBreedFromFunction)
-    
