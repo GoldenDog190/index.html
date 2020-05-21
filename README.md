@@ -18,9 +18,9 @@ Golden Retriever
          <li> <a>Golden Retriever</a>
          <li> <a>Bichon</a>
         </ul>
-        </nav>
-        </header>
-       <img id= "Golden Retriever" src= "https://live.staticflickr.com/3722/10581910556_659c71691b_b.jpg"/150>
+      </nav>
+    </header>
+       <img src= "https://live.staticflickr.com/3722/10581910556_659c71691b_b.jpg"/150>
        <p>
            Golden retrievers are know for thier kind and gentle nature. 
            They are great with people of all ages, and are very patient.
