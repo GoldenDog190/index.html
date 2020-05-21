@@ -14,9 +14,9 @@ Golden Retriever
       <script src="javascript.js"></script>
       <nav>
         <ul>
-         <li> <a>Home</a>
-         <li> <a>Golden Retriever</a>
-         <li> <a>Bichon</a>
+         <li> <a>Home</a></li>
+         <li> <a>Golden Retriever</a></li>
+         <li> <a>Bichon</a></li>
         </ul>
       </nav>
     </header>
