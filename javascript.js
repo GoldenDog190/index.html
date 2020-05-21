@@ -12,4 +12,4 @@ if (userName > Amelia) {
     greeting = 'Welcome!';
 }
 
-document.write('<h1>' + userName + userAge'<h1>');
+document.write('<title>' + userName + userAge'<title>');
