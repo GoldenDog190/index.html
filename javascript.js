@@ -1,7 +1,7 @@
 
-'use strict';
+'use strict'
 
-var userName = prompt (What is your name?);
+var userName = prompt ('What is your name?');
 console.log (name);
 var greeting;
 
@@ -20,9 +20,9 @@ if (hourNow > 8) {
 } else if (hourNow > 12) {
     greeting = 'Good Afternoon!';
 } else if (hourNow > 6) {
-    greeting = Good Evening!';
+    greeting = 'Good Evening!';
 
-var dogBreed = prompt (What breed is your dog?);
+var dogBreed = prompt ('What breed is your dog?);
 console.log (breed)
 var greeting;
 
