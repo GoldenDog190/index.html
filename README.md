@@ -6,12 +6,12 @@ Golden Retriever
       <title>Dog Breeds
       <link rel = "styes.css" href= "styles.css" type = "text/css">
       <! -- metadata, links to css files,SEO -->
-      <script src = "javascript.js"></script>
       </title>
   </head>
   <body>
    <header>
       <h1>Golden Retriever Information</h1>
+      <script src = "javascript.js"></script>
       <nav>
         <ul>
          <li> <a>Home</a>
