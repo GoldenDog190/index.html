@@ -4,7 +4,13 @@ body {
     font-family: helvetica;
     color: black;
     padding: 20px;}
-
+nav {
+    background-color: cornsilk;
+    display: flex;
+    border: solid 2px black;
+    padding: 2px;
+    margin: 25px;
+}
  h1 {
      font-family: helvitica;
      color: black;
